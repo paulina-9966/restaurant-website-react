@@ -12,7 +12,7 @@ import pizza from './images/pizza.jpg'
 export default function Menu() {
 
     return (
-        <>
+        <Jumbotron fluid style={{backgroundColor: 'white'}}>
         <Container className="menu-container">
   
   <Row className="container text-center" style={{fontWeight: '6 b00'}}>
@@ -39,6 +39,6 @@ export default function Menu() {
   </Container>
   <Button variant="danger" className="rounded btn-order" >Online orders</Button>
   
-        </>
+        </Jumbotron>
     )
 }

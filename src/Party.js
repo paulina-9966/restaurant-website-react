@@ -1,13 +1,9 @@
 import React from 'react';
-import { Navbar, Nav, Container, 
-    Row, Col, NavDropdown, Jumbotron, Button,
+import { Container, 
+    Row, Col, Jumbotron, 
   Image } from 'react-bootstrap'
-import restaurant from './images/restaurant.jpg'
-import restaurant1 from './images/restaurant1.jpg'
 import party from './images/party.jpg'
-import cafe from './images/cafe.jpg'
-import dinner from './images/dinner.jpg'
-import pizza from './images/pizza.jpg'
+
 
 export default function Party() {
 

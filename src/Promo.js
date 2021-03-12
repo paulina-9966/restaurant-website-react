@@ -31,4 +31,4 @@ export default function Promo() {
         </>
     )
 }
-///// navbar //////
+

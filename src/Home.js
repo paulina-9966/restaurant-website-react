@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container, 
-    Row, Col, NavDropdown} from 'react-bootstrap'
+    Row, Col, NavDropdown, Jumbotron } from 'react-bootstrap'
 import restaurant from './images/restaurant.jpg'
 import Menu from './Menu'
 import Party from './Party'
@@ -40,8 +40,8 @@ export default function Home() {
 
 <Container fluid>
     <Row>
-        <Col xs={12} lg={12}>
-           <img src={restaurant} alt="restaurant" className="restaurant-img d-block w-100"/>  
+        <Col>
+           <img src={restaurant} alt="restaurant" className="restaurant-img"/>  
            <span className="banner"> Pizza &amp; Restaurant</span>
         </Col>
     </Row>
