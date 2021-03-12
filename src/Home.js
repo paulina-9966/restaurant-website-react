@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { Navbar, Nav, Container, 
-    Row, Col, NavDropdown, Jumbotron } from 'react-bootstrap'
+    Row, Col, NavDropdown } from 'react-bootstrap'
 import restaurant from './images/restaurant.jpg'
 import Menu from './Menu'
 import Party from './Party'
@@ -16,7 +17,9 @@ export default function Home() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/about">About</Nav.Link>
+      <Nav.Link href="#about">
+        <Link to="/about">About</Link>
+        </Nav.Link>
       <Nav.Link href="#pricing">Pricing</Nav.Link>
       <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
