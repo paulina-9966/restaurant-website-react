@@ -168,12 +168,22 @@ body {
 .btn-home:hover{
   cursor: pointer;
 }
-.icon {
-  width: 100%;
+.icon{
+  width: 4rem;
   height: auto;
-  padding: 2rem;
 }
-
+.wifi-icon{
+  position: relative;
+  right: -50%;
+  bottom: -2rem;
+  transform: translate(-50%,-50%);
+}
+.fb-icon{
+  position: relative;
+  right: -50%;
+  bottom: -2rem;
+  transform: translate(-50%,-50%);
+}
 
 
 @media (min-width: 276px) {
@@ -323,6 +333,10 @@ body {
   .container-promo{
     margin-top: 52vh;
   }
+  .icon{
+    width: 4rem;
+    height: auto;
+  }
 }
 
 
@@ -369,6 +383,10 @@ body {
   color: azure;
   z-index: 1;
 }
+.icon{
+  width: 5rem;
+  height: auto;
+}
 }
 
 @media (min-width: 992px) { 
@@ -414,6 +432,10 @@ body {
   color: azure;
   z-index: 1;
 }
+.icon{
+  width: 5rem;
+  height: auto;
+}
 }
 
 @media (min-width: 1200px) { 
@@ -454,6 +476,10 @@ body {
 .container-promo{
   margin-top: 40vh;
 }
+.icon{
+  width: 6rem;
+  height: auto;
+}
 }
 
 @media (min-width: 1400px) {
@@ -479,5 +505,9 @@ body {
 }
 .container-promo{
   margin-top: 30vh;
+}
+.icon{
+  width: 7rem;
+  height: auto;
 }
 }
